@@ -8,13 +8,13 @@ export const environment = {
   // LÓGICA DINÁMICA:
   // ¿Estoy en local? -> Usa localhost:8000
   // ¿Estoy en Vercel? -> Usa Render PHP
-  phpApiUrl: isLocal 
-    ? 'http://localhost:8000/api' 
-    : 'https://upch-slim-php-realworld.onrender.com/api',
+  phpApiUrl: isLocal
+    ? 'http://localhost:8000/api'
+    : 'https://slim-php-realworld-example-app-1.onrender.com/api',
 
   // ¿Estoy en local? -> Usa localhost:8080
   // ¿Estoy en Vercel? -> Usa Render Python
-  pythonApiUrl: isLocal 
-    ? 'http://localhost:8080/api' 
-    : 'https://upch-2do-backend-python-realworld.onrender.com/api'
+  pythonApiUrl: isLocal
+    ? 'http://localhost:8080/api'
+    : 'https://twodo-backend-python-oe64.onrender.com/api'
 };
